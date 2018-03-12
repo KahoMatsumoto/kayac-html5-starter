@@ -5,7 +5,12 @@ prepend config-block
 
 //- append stylesheet-block
 
-//- append javascript-block
-
+append javascript-block
+  script(src="js/clmtrackr.js")
+  
 block content-block
-  | hello, world!
+  | hello, wod
+
+  video(width="400", height="300", autoplay loop)
+    source(src="./media/somevideo.ogv", type="video/ogg")
+    source(src="movie.ogg", type="video/ogg")

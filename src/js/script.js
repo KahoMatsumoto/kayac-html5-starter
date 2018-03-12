@@ -6,5 +6,5 @@ const sample = new Sample({
 });
 
 $('.wrapper').on('click', () => {
-    console.log(`hello, ${sample.name}.`);
+    console.log(`helo, ${sample.name}.`);
 });

@@ -9865,7 +9865,7 @@ var sample = new _Sample2.default({
 });
 
 (0, _jquery2.default)('.wrapper').on('click', function () {
-    console.log('hello, ' + sample.name + '.');
+    console.log('helo, ' + sample.name + '.');
 });
 
 },{"./lib/Sample":3,"jquery":2}]},{},[4]);
